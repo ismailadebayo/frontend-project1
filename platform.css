@@ -1,0 +1,155 @@
+body{
+    background-color: gainsboro;
+}
+
+#whole{
+    height: 80vh;
+    width:80vw;
+    margin:auto;
+    margin-top: 20px;
+    background-image: url('./image.jpeg');
+}
+#flex-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    /* height: 80vh;
+    width:80vw;
+    */
+}
+#superdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+#nextdiv1{
+    margin-left: 130px;
+}
+#subdiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#subdiv2 p{
+    font-size: 30px;
+    color:blue;
+    margin-top: 10px;
+}
+
+#subdiv2 h6{
+    text-decoration: none;
+    color:grey;
+    margin-top: -15px;
+}
+#subdiv2 div{
+    margin-top: 5px;
+    margin-left: -35px;
+}
+
+#subdiv1 p{
+    color:grey
+}
+#subdiv1 h1{
+    color:blue;
+    margin-top: -15px;
+    
+}
+#subdiv1 img{
+    width:15px;
+    height: 15px
+}
+#date{
+    display: inline;
+}
+#form div{
+    padding-left:20px;
+
+}
+#form div .join{
+    font-size: 25px;
+    font-weight: 10px;
+    color:black
+}
+#form input{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#form div #terms{
+    display:inline;
+}
+button{
+    width:260px;
+    height:40px;
+    background-color: blue;
+    border-color: blue;
+    color:white;
+    margin-top: 15px;
+}
+#flex-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    gap: 20px;
+    position:relative;
+  
+
+}
+input{
+    border: none;
+    border-top: 3px solid whitesmoke;
+    
+    
+
+}
+#nextdiv2{
+    margin-right: 100px;
+    margin-top: -50px;
+    margin-bottom: 5px;
+    width:300px;
+    height:400px;
+    background-color: white;
+
+}
+h3{
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.ticket{
+    width:80px;
+    height:40px;
+    background-color: blue;
+    color:white;
+    position: relative;
+    top: -25px;
+    border-color: blue;
+}
+a{
+    text-decoration: none;
+    color: black
+    
+}
+#blue-background{
+    background-color: blue;
+    width:80vw;
+    height:20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#blue-background div img{
+    margin-top:30px;
+    width:20px;
+    height:25px;
+
+}
+
+#blue-background div p{
+    color:white;
+}
