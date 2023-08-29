@@ -45,8 +45,12 @@ body{
     margin-top: -15px;
 }
 #subdiv2 div{
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: -35px;
+    height: 60px;
+    padding:10px;
+    border-left:1px solid grey;
+    
 }
 
 #subdiv1 p{
